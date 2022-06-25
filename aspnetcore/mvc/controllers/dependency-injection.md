@@ -4,12 +4,11 @@ author: ardalis
 description: Discover how ASP.NET Core MVC controllers request their dependencies explicitly via their constructors with dependency injection in ASP.NET Core.
 ms.author: riande
 ms.date: 02/24/2019
-no-loc: [appsettings.json, "ASP.NET Core Identity", cookie, Cookie, Blazor, "Blazor Server", "Blazor WebAssembly", "Identity", "Let's Encrypt", Razor, SignalR]
 uid: mvc/controllers/dependency-injection
 ---
 # Dependency injection into controllers in ASP.NET Core
 
-::: moniker range=">= aspnetcore-3.0"
+:::moniker range=">= aspnetcore-3.0"
 
 By [Shadi Namrouti](https://github.com/shadinamrouti), [Rick Anderson](https://twitter.com/RickAndMSFT), and [Steve Smith](https://github.com/ardalis)
 
@@ -71,9 +70,9 @@ The following code requests the `IOptions<SampleWebSettings>` settings from the 
 
 * [Replace the default dependency injection container with a third party implementation](xref:fundamentals/dependency-injection#default-service-container-replacement).
 
-::: moniker-end
+:::moniker-end
 
-::: moniker range="< aspnetcore-3.0"
+:::moniker range="< aspnetcore-3.0"
 
 By [Shadi Namrouti](https://github.com/shadinamrouti), [Rick Anderson](https://twitter.com/RickAndMSFT), and [Steve Smith](https://github.com/ardalis)
 
@@ -135,4 +134,4 @@ The following code requests the `IOptions<SampleWebSettings>` settings from the 
 
 * [Replace the default dependency injection container with a third party implementation](xref:fundamentals/dependency-injection#default-service-container-replacement).
 
-::: moniker-end
+:::moniker-end
